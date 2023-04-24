@@ -81,4 +81,4 @@ void loop()
 ![Screenshot 2023-04-24 174452](https://user-images.githubusercontent.com/118704873/233994931-b96101b9-765a-4238-896c-abf434489600.png)
 
 ## Result
-Thus interfacing a digital input (push button) and blink and LED upon activation was successfully executed .
+Thus the simulation output on interfacing digital input sensor with arduino has been completed in tinkercad.
