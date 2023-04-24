@@ -2,6 +2,7 @@
 
 ## AIM: 
 To interface a digital input (push button) and blink and LED upon activation.
+
 COMPONENTS REQUIRED:
 1.	1 KΩ Resistor 
 2.	Arduino Uno 
