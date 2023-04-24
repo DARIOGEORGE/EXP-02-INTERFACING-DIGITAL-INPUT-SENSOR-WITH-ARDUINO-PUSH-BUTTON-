@@ -67,15 +67,38 @@ FIGURE -03
 
 
 PROGRAM 
- 
- 
- 
- 
- 
+```
+// C++ code
+//
+int buttonstate=0;
+void setup()
+{
+  pinMode(2,INPUT);
+  pinMode(13,OUTPUT);
+}
 
-
-
+void loop()
+{
+  buttonstate=digitalRead(2);
+  if(buttonstate==HIGH)
+  {
+    digitalWrite(13,HIGH);
+  }
+  else
+  {
+    digitalWrite(13,LOW);
+  }
+  delay(100);
+}
+```
+ 
 Output of the simulation :
+### Before Simulation
+![Screenshot 2023-04-24 174245](https://user-images.githubusercontent.com/118704873/233994881-052bb696-1bcb-492d-b00a-2322f7ff7a40.png)
 
+### After Simulation
 
+![Screenshot 2023-04-24 174452](https://user-images.githubusercontent.com/118704873/233994931-b96101b9-765a-4238-896c-abf434489600.png)
 
+### Result
+Thus interfacing a digital input (push button) and blink and LED upon activation was successfully executed .
